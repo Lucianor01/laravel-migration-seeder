@@ -12,6 +12,6 @@ class TrainController extends Controller
     {
         $trains = Train::all();
 
-        return view('layout.app', compact('trains'));
+        return view('pages.home', compact('trains'));
     }
 }
