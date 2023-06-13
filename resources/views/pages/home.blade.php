@@ -1,7 +1,7 @@
 @extends('layout.app')
 
 @section('titlePage')
-    Comics DC | Details
+    Home
 @endsection
 
 @section('content')
@@ -10,7 +10,7 @@
             <h1 class="text-center text-uppercase">Treni</h1>
             <table
                 class="table table-success table-striped-columns table-hover table-bordered border-dark text-center align-middle">
-                <thead class="align-middle"">
+                <thead class="align-middle">
                     <tr>
                         <th>Azienda</th>
                         <th>Stazione di partenza</th>
